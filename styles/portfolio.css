@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+}
+
+.btn-primary {
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    background: #FD6E0A;
+    padding: 25px;
+
+}
+
+.header {
+    background: white;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+/* header and navigation styles */
+
+.nav-title {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+
+
+.text-primary {
+    color: #fd6e0a;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+    align-items: center;
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+
+/* banner style */
+
+
+.banner {
+    margin: 0 50px 0 285px;
+    display: flex;
+
+}
+
+
+.banner-title {
+    color: var(--dark-01, #181818);
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+
+.banner-description {
+
+    color: #757575;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+
+}
+
+.banner-details {
+    padding-top: 150px;
+}
+
+.banner-photo {
+
+    padding-left: 720px;
+}
+
+
+/* main section */
+
+.main {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+/* about section style */
+
+
+.about {
+    margin-top: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    padding: 1140px 550px;
+
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+
+.section-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* about info container */
+
+.about-info-container{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title{
+    font-size:20px;
+    color: #474747;
+
+}
+
+.info-description{
+    font-size: 20px;
+    font-weight: 700;
+    color:  #474747;
+}
